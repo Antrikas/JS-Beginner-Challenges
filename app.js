@@ -4,10 +4,9 @@
 
 //console.log(addition(-3, -6));
 
+function lessThanOrEqualToZero (num1) {
+return num1  <= 0
+} 
 
-function calcTriangleArea(base, height) {
-return 0.5 * base * height;
-}
 
-console.log(calcTriangleArea(20, 20));
-
+console.log (lessThanOrEqualToZero (3));
