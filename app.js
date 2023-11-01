@@ -4,9 +4,10 @@
 
 //console.log(addition(-3, -6));
 
-function isOdd (num) {
-return num % 2 !== 0
+function isLoggedInAndSubscribed (LoggedIn, Subscribed) {
+   return (LoggedIn === 'LOGGED_IN') || (Subscribed === 'SUBSCRIBED') 
 
+    
 }
 
-console.log (isOdd (4));
+console.log (isLoggedInAndSubscribed  ('LOGGED_IN, SUBSCRIBED'))
